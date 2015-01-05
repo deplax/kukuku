@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#333F68"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/add_plan_title_edit"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:hint="title"
+        android:textColor="#FFF"
+        android:textColorHint="#8F97B7"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/add_plan_summary_edit"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/add_plan_ok_button"
+        android:layout_below="@+id/add_plan_title_edit"
+        android:gravity="top"
+        android:hint="summary"
+        android:textColor="#FFF"
+        android:textColorHint="#8F97B7"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/add_plan_ok_button"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="#26AAAE"
+        android:text="OK"
+        android:textColor="#FFF" />
+
+</RelativeLayout>
